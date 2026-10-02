@@ -15,4 +15,3 @@ Activities Performed
 
 Repository Contents
 -results: Contains the output files generated  during the Nmap scans.
--screenshots: Contains  screenshots of the commands and scan results
