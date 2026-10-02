@@ -1,0 +1,17 @@
+# Nmap 7.99 scan initiated Thu Oct  1 21:19:29 2026 as: /usr/lib/nmap/nmap -sV -oN services.txt 192.168.1.13
+Nmap scan report for 192.168.1.13
+Host is up (0.00036s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+3389/tcp open  ms-wbt-server   Microsoft Terminal Services
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 00:11:7F:9B:0A:2A (Neotune Information Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct  1 21:19:46 2026 -- 1 IP address (1 host up) scanned in 16.72 seconds

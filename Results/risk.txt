@@ -1,0 +1,20 @@
+# Nmap 7.99 scan initiated Thu Oct  1 21:21:16 2026 as: /usr/lib/nmap/nmap --script vuln -oN risk.txt 192.168.1.13
+Nmap scan report for 192.168.1.13
+Host is up (0.00043s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+MAC Address: 00:11:7F:9B:0A:2A (Neotune Information Technology)
+
+Host script results:
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-vuln-ms10-054: false
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+
+# Nmap done at Thu Oct  1 21:22:00 2026 -- 1 IP address (1 host up) scanned in 44.39 seconds

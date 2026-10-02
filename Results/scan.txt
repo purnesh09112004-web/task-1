@@ -1,0 +1,13 @@
+# Nmap 7.99 scan initiated Thu Oct  1 21:14:24 2026 as: /usr/lib/nmap/nmap -sn -oN scan.txt 192.168.1.0/24
+Nmap scan report for dsldevice.lan (192.168.1.1)
+Host is up (0.0085s latency).
+MAC Address: 6C:22:F7:E0:ED:A3 (Nokia Shanghai Bell)
+Nmap scan report for 192.168.1.13
+Host is up (0.00047s latency).
+MAC Address: 00:11:7F:9B:0A:2A (Neotune Information Technology)
+Nmap scan report for 192.168.1.20
+Host is up (0.0095s latency).
+MAC Address: 9E:33:6A:1C:2D:6E (Unknown)
+Nmap scan report for 192.168.1.3
+Host is up.
+# Nmap done at Thu Oct  1 21:14:27 2026 -- 256 IP addresses (4 hosts up) scanned in 3.00 seconds
